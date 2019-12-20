@@ -22,7 +22,7 @@ export class RightContentComponent implements OnInit {
   fetchData(num) {
     if (num > 0) {
       this.loading = true;
-      this.http.getData(num).subscribe(({result}) => {
+      this.http.getData(num).subscribe((result: any) => {
         this.list = result.items;
         this.loading = false;
       });
