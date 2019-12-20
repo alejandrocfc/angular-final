@@ -6,8 +6,11 @@
 }
 .number{
   background: azure;
-  margin: 2px;
   cursor: pointer;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: auto;
   &:hover{
     border: 1px dashed blue
   }
@@ -17,5 +20,6 @@
 }
 
 p{
-  margin: 0
+  margin: auto;
+  text-align: center;
 }
