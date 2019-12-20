@@ -1,0 +1,21 @@
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.number{
+  background: azure;
+  margin: 2px;
+  cursor: pointer;
+  &:hover{
+    border: 1px dashed blue
+  }
+  &.active{
+    border: 2px solid darkblue;
+  }
+}
+
+p{
+  margin: 0
+}

@@ -1,0 +1,19 @@
+div{
+  height: 90%;
+  overflow-y: auto;
+}
+table{
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid grey;
+}
+thead{
+  border: 2px solid grey;
+  th{
+    text-transform: capitalize;
+  }
+}
+tbody tr{
+  border: 1px solid grey;
+}

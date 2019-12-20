@@ -1,0 +1,8 @@
+<div class="grid">
+  <div *ngFor="let item of numbers" class="number" [ngClass]="item === num ? 'active' : ''" (click)="selectNumber(item)">
+      <p>{{item}}</p>
+  </div>
+  <div class="number" (click)="reset()">
+    <p>reset</p>
+  </div>
+</div>

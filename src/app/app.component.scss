@@ -1,0 +1,20 @@
+.container{
+  flex: 1;
+  height: 100%;
+  display: flex;
+  div{
+    margin: 1px
+  }
+}
+
+.left-content {
+  width: 30%;
+}
+.right-content{
+  width: 70%;
+}
+.left-content, .right-content{
+  padding: 2px;
+  height: 100%;
+}
+
